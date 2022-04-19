@@ -8,6 +8,7 @@ $family: 'League Spartan', sans-serif
 $mobile: 375px
 $desktop: 1440px
 $shadow: 4px 4px 10px 3px rgba(0,0,0,0.3)
+$shadowCyan: 4px 4px 10px 3px rgba(91,164,164,0.3)
 
 *
     margin: 0
@@ -30,10 +31,9 @@ $shadow: 4px 4px 10px 3px rgba(0,0,0,0.3)
         .wrapper
             margin: auto
             width: 75%
-            background-color: yellow
-            position: relative
 
-            .navigation ul
+            .filter-navigation ul
+                transform: translateY(-36px)
                 background-color: white
                 border-radius: 8px
                 padding: 1em
@@ -43,12 +43,9 @@ $shadow: 4px 4px 10px 3px rgba(0,0,0,0.3)
                 flex-direction: row
                 list-style-type: none
                 width: 100%
-                position: absolute
-                bottom: 80%
-                left: 0
                 margin: auto
                 z-index: 10
-                box-shadow: $shadow
+                box-shadow: $shadowCyan
 
                 .filter
                     display: flex
@@ -77,6 +74,10 @@ $shadow: 4px 4px 10px 3px rgba(0,0,0,0.3)
 
                     &:hover
                         text-decoration-line: underline
+            .spacer
+                padding: 8px
+            .job
+                background-color: green
 
     .attribution
         font-size: 11px
