@@ -119,7 +119,7 @@
     "level": "Junior",
     "languages": ["JavaScript"],
     "tools": ["Vue", "Sass"],
-    "keywords": ["Account", "New!"],
+    "keywords": [""],
     "title": "Junior Frontend Developer",
     "info": {
       "date": "2w ago",
@@ -135,7 +135,7 @@
     "level": "Midweight",
     "languages": ["JavaScript", "Python"],
     "tools": ["Django"],
-    "keywords": ["Account", "New!"],
+    "keywords": [""],
     "title": "Full Stack Engineer",
     "info": {
       "date": "3w ago",

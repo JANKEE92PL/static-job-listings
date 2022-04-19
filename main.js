@@ -1,5 +1,6 @@
 let job = document.querySelector(".job");
 let wrapper = document.getElementById("wrapper");
+let chip = document.getElementsByClassName("chip");
 
 const render = () => {
   fetch("jobs.json")
@@ -51,3 +52,15 @@ const createJob = (object) => {
     </div>`;
   wrapper.insertAdjacentHTML("beforeend", insert);
 };
+
+const clearFilterNavigation = () => {
+  while (filterNavi.hasChildNodes()) {
+    filterNavi.removeChild(filterNavi.firstChild);
+  }
+  filterNavi.insertAdjacentHTML(
+    "beforeend",
+    `<a href="#" class="clear">Clear</a>`
+  );
+};
+let filterNavi = document.getElementById("filter");
+filterNavi.addEventListener("click", clearFilterNavigation);
