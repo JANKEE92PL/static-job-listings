@@ -87,17 +87,31 @@ $shadowCyan: 4px 4px 10px 3px rgba(91,164,164,0.3)
                 border-left: 4px $darkCyan solid
                 border-radius: 8px
                 padding: 2rem
-                .company
-                    color: $darkCyan
-                .chip
-                    color: white
-                    width: auto
-                    height: 40px
-                    background-color: $darkCyan
-                    padding: 0.75rem
-                    border-radius: 24px
-                    &:hover
-                        background-color: $veryDarkGrayishCyan
+
+                .box-left
+                    display: flex
+                    width: 50%
+
+                    .job-header
+                        display: flex
+                        align-items: baseline
+                        width: 480px
+                        justify-content: space-between
+
+                        .company
+                            color: $darkCyan
+                        .chip
+                            color: white
+                            width: auto
+                            height: 40px
+                            background-color: $darkCyan
+                            padding: 0.75rem
+                            border-radius: 24px
+                            &:hover
+                                background-color: $veryDarkGrayishCyan
+
+                .box-right
+                    width: 50%
 
     .attribution
         font-size: 11px
