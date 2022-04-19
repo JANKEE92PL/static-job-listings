@@ -75,7 +75,7 @@ $shadowCyan: 4px 4px 10px 3px rgba(91,164,164,0.3)
                     &:hover
                         text-decoration-line: underline
             .spacer
-                padding: 8px
+                padding: 16px
             .job
                 width: 100%
                 margin: auto
@@ -120,12 +120,34 @@ $shadowCyan: 4px 4px 10px 3px rgba(91,164,164,0.3)
                         .job-info
                             display: flex
                             justify-content: space-between
+                            color: $darkGrayishCyan
+
                             p:nth-child(2)::after,
                             p:nth-child(2)::before
-                                content: 'X'
+                                content: '.'
+                                color: $darkCyan
+                                text-align: center
+                                margin: 0 40px
 
                 .box-right
                     width: 50%
+                    padding: 16px
+                    margin: auto
+                    .job-description
+                        display: flex
+                        justify-content: space-evenly
+                        align-items: center
+                        color: $darkGrayishCyan
+
+                        p
+                            background-color: $lightGrayishCyan
+                            color: $darkCyan
+                            border-radius: 8px
+                            padding: 16px
+                            margin: 6px
+                            &:hover
+                                background-color: $darkCyan
+                                color: white
 
     .attribution
         font-size: 11px

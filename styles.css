@@ -104,7 +104,7 @@
 }
 
 * body .wrapper .spacer {
-  padding: 8px;
+  padding: 16px;
 }
 
 * body .wrapper .job {
@@ -181,15 +181,47 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  color: #7b8e8e;
 }
 
 * body .wrapper .job .box-left .box-description .job-info p:nth-child(2)::after,
 * body .wrapper .job .box-left .box-description .job-info p:nth-child(2)::before {
-  content: 'X';
+  content: '.';
+  color: #5ba4a4;
+  text-align: center;
+  margin: 0 40px;
 }
 
 * body .wrapper .job .box-right {
   width: 50%;
+  padding: 16px;
+  margin: auto;
+}
+
+* body .wrapper .job .box-right .job-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #7b8e8e;
+}
+
+* body .wrapper .job .box-right .job-description p {
+  background-color: #eef6f6;
+  color: #5ba4a4;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 6px;
+}
+
+* body .wrapper .job .box-right .job-description p:hover {
+  background-color: #5ba4a4;
+  color: white;
 }
 
 * .attribution {
