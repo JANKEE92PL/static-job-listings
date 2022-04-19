@@ -63,4 +63,5 @@ const clearFilterNavigation = () => {
   );
 };
 let filterNavi = document.getElementById("filter");
-filterNavi.addEventListener("click", clearFilterNavigation);
+let clearBTN = document.getElementById("clear");
+clearBTN.addEventListener("click", clearFilterNavigation);

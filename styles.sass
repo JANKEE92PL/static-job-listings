@@ -74,6 +74,7 @@ $shadowCyan: 4px 4px 10px 3px rgba(91,164,164,0.3)
 
                     &:hover
                         text-decoration-line: underline
+
             .spacer
                 padding: 16px
             .job
@@ -84,9 +85,12 @@ $shadowCyan: 4px 4px 10px 3px rgba(91,164,164,0.3)
                 justify-content: space-between
                 box-shadow: $shadowCyan
                 background-color: white
-                border-left: 4px $darkCyan solid
+                border-left: 6px $lightGrayishCyan solid
                 border-radius: 8px
+                cursor: pointer
                 padding: 2rem
+                &:active
+                    border-left-color: $darkCyan
 
                 .box-left
                     display: flex
@@ -153,7 +157,8 @@ $shadowCyan: 4px 4px 10px 3px rgba(91,164,164,0.3)
                                 color: white
 
     .attribution
-        font-size: 11px
+        margin: 1em 0 0
+        font-size: 16px
         text-align: center
     a
         color: hsl(228, 45%, 44%)

@@ -120,9 +120,14 @@
   -webkit-box-shadow: 4px 4px 10px 3px rgba(91, 164, 164, 0.3);
           box-shadow: 4px 4px 10px 3px rgba(91, 164, 164, 0.3);
   background-color: white;
-  border-left: 4px #5ba4a4 solid;
+  border-left: 6px #eef6f6 solid;
   border-radius: 8px;
+  cursor: pointer;
   padding: 2rem;
+}
+
+* body .wrapper .job:active {
+  border-left-color: #5ba4a4;
 }
 
 * body .wrapper .job .box-left {
@@ -230,7 +235,8 @@
 }
 
 * .attribution {
-  font-size: 11px;
+  margin: 1em 0 0;
+  font-size: 16px;
   text-align: center;
 }
 
