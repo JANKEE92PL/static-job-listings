@@ -3,11 +3,27 @@
     "id": 0,
     "company": "Photosnap",
     "logo": "photosnap.svg",
+    "role": "Frontend",
+    "level": "Senior",
+    "languages": ["HTML", "CSS", "JavaScript"],
+    "tools": [],
+    "keywords": ["New!", "Featured"],
+    "title": "Senior Frontend Developer",
+    "info": {
+      "date": "1d ago",
+      "time": "Full Time",
+      "place": "USA only"
+    }
+  },
+  {
+    "id": 1,
+    "company": "Manage",
+    "logo": "manage.svg",
     "role": "Fullstack",
     "level": "Midweight",
     "languages": ["Python"],
     "tools": ["React"],
-    "keywords": ["Manage", "New!", "Featured"],
+    "keywords": ["New!", "Featured"],
     "title": "Fullstack Developer",
     "info": {
       "date": "1d ago",
@@ -16,14 +32,30 @@
     }
   },
   {
-    "id": 1,
+    "id": 2,
+    "company": "Account",
+    "logo": "account.svg",
+    "role": "Frontend",
+    "level": "Junior",
+    "languages": ["JavaScript"],
+    "tools": ["React", "Sass"],
+    "keywords": ["New!"],
+    "title": "Junior Frontend Developer",
+    "info": {
+      "date": "2d ago",
+      "time": "Part Time",
+      "place": "USA only"
+    }
+  },
+  {
+    "id": 3,
     "company": "MyHome",
     "logo": "myhome.svg",
     "role": "Frontend",
     "level": "Junior",
     "languages": ["CSS", "JavaScript"],
     "tools": [""],
-    "keywords": ["Account", "New!"],
+    "keywords": [""],
     "title": "Junior Frontend Developer",
     "info": {
       "date": "5d ago",
@@ -32,30 +64,30 @@
     }
   },
   {
-    "id": 2,
+    "id": 4,
     "company": "Loop Studios",
     "logo": "loop-studios.svg",
     "role": "Fullstack",
     "level": "Midweight",
     "languages": ["JavaScript", "Ruby"],
     "tools": ["Sass"],
-    "keywords": ["Account", "New!"],
+    "keywords": [""],
     "title": "Software Engineer",
     "info": {
-      "date": "2w ago",
+      "date": "1w ago",
       "time": "Full Time",
       "place": "Worldwide"
     }
   },
   {
-    "id": 3,
+    "id": 5,
     "company": "FaceIt",
     "logo": "faceit.svg",
     "role": "Backend",
     "level": "Junior",
     "languages": ["Ruby"],
     "tools": ["RoR"],
-    "keywords": ["Account", "New!"],
+    "keywords": [""],
     "title": "Junior Backend Developer",
     "info": {
       "date": "2w ago",
@@ -64,14 +96,14 @@
     }
   },
   {
-    "id": 4,
+    "id": 6,
     "company": "Shortly",
     "logo": "shortly.svg",
     "role": "Frontend",
     "level": "Junior",
     "languages": ["HTML", "JavaScript"],
     "tools": ["Sass"],
-    "keywords": ["Account", "New!"],
+    "keywords": [""],
     "title": "Junior Developer",
     "info": {
       "date": "2w ago",
@@ -80,7 +112,7 @@
     }
   },
   {
-    "id": 5,
+    "id": 7,
     "company": "Insure",
     "logo": "insure.svg",
     "role": "Frontend",
@@ -96,7 +128,7 @@
     }
   },
   {
-    "id": 6,
+    "id": 8,
     "company": "Eyecam Co.",
     "logo": "eyecam-co.svg",
     "role": "Fullstack",
@@ -112,17 +144,17 @@
     }
   },
   {
-    "id": 7,
+    "id": 9,
     "company": "The Air Filter Company",
     "logo": "the-air-filter-company.svg",
     "role": "Frontend",
     "level": "Junior",
     "languages": ["JavaScript"],
     "tools": ["React", "Sass"],
-    "keywords": ["Account", "New!"],
+    "keywords": [""],
     "title": "Front-end Dev",
     "info": {
-      "date": "1m ago",
+      "date": "1mo ago",
       "time": "Part Time",
       "place": "Worldwide"
     }

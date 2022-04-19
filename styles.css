@@ -170,8 +170,13 @@
 }
 
 * body .wrapper .job .box-left .box-description .job-title {
-  color: #5ba4a4;
+  color: #2c3a3a;
   margin-bottom: 12px;
+}
+
+* body .wrapper .job .box-left .box-description .job-title:hover {
+  color: #5ba4a4;
+  cursor: pointer;
 }
 
 * body .wrapper .job .box-left .box-description .job-info {
