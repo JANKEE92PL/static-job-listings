@@ -108,7 +108,38 @@
 }
 
 * body .wrapper .job {
-  background-color: green;
+  width: 100%;
+  margin: auto;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: 4px 4px 10px 3px rgba(91, 164, 164, 0.3);
+          box-shadow: 4px 4px 10px 3px rgba(91, 164, 164, 0.3);
+  background-color: white;
+  border-left: 4px #5ba4a4 solid;
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+* body .wrapper .job .company {
+  color: #5ba4a4;
+}
+
+* body .wrapper .job .chip {
+  color: white;
+  width: auto;
+  height: 40px;
+  background-color: #5ba4a4;
+  padding: 0.75rem;
+  border-radius: 24px;
+}
+
+* body .wrapper .job .chip:hover {
+  background-color: #2c3a3a;
 }
 
 * .attribution {
