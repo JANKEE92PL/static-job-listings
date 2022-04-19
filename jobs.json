@@ -1,0 +1,122 @@
+[
+  {
+    "id": 0,
+    "company": "Photosnap",
+    "role": "Fullstack",
+    "level": "Midweight",
+    "languages": ["Python"],
+    "tools": ["React"],
+    "keywords": ["Manage", "New!", "Featured"],
+    "title": "Fullstack Developer",
+    "info": {
+      "date": "1d ago",
+      "time": "Part Time",
+      "place": "Remote"
+    }
+  },
+  {
+    "id": 1,
+    "company": "MyHome",
+    "role": "Frontend",
+    "level": "Junior",
+    "languages": ["CSS", "JavaScript"],
+    "tools": [""],
+    "keywords": ["Account", "New!"],
+    "title": "Junior Frontend Developer",
+    "info": {
+      "date": "5d ago",
+      "time": "Contract",
+      "place": "USA only"
+    }
+  },
+  {
+    "id": 2,
+    "company": "Loop Studios",
+    "role": "Fullstack",
+    "level": "Midweight",
+    "languages": ["JavaScript", "Ruby"],
+    "tools": ["Sass"],
+    "keywords": ["Account", "New!"],
+    "title": "Software Engineer",
+    "info": {
+      "date": "2w ago",
+      "time": "Full Time",
+      "place": "Worldwide"
+    }
+  },
+  {
+    "id": 3,
+    "company": "FaceIt",
+    "role": "Backend",
+    "level": "Junior",
+    "languages": ["Ruby"],
+    "tools": ["RoR"],
+    "keywords": ["Account", "New!"],
+    "title": "Junior Backend Developer",
+    "info": {
+      "date": "2w ago",
+      "time": "Full Time",
+      "place": "UK only"
+    }
+  },
+  {
+    "id": 4,
+    "company": "Shortly",
+    "role": "Frontend",
+    "level": "Junior",
+    "languages": ["HTML", "JavaScript"],
+    "tools": ["Sass"],
+    "keywords": ["Account", "New!"],
+    "title": "Junior Developer",
+    "info": {
+      "date": "2w ago",
+      "time": "Full Time",
+      "place": "Worldwide"
+    }
+  },
+  {
+    "id": 5,
+    "company": "Insure",
+    "role": "Frontend",
+    "level": "Junior",
+    "languages": ["JavaScript"],
+    "tools": ["Vue", "Sass"],
+    "keywords": ["Account", "New!"],
+    "title": "Junior Frontend Developer",
+    "info": {
+      "date": "2w ago",
+      "time": "Full Time",
+      "place": "USA only"
+    }
+  },
+  {
+    "id": 6,
+    "company": "Eyecam Co.",
+    "role": "Fullstack",
+    "level": "Midweight",
+    "languages": ["JavaScript", "Python"],
+    "tools": ["Django"],
+    "keywords": ["Account", "New!"],
+    "title": "Full Stack Engineer",
+    "info": {
+      "date": "3w ago",
+      "time": "Full Time",
+      "place": "Worldwide"
+    }
+  },
+  {
+    "id": 7,
+    "company": "The Air Filter Company",
+    "role": "Frontend",
+    "level": "Junior",
+    "languages": ["JavaScript"],
+    "tools": ["React", "Sass"],
+    "keywords": ["Account", "New!"],
+    "title": "Front-end Dev",
+    "info": {
+      "date": "1m ago",
+      "time": "Part Time",
+      "place": "Worldwide"
+    }
+  }
+]
