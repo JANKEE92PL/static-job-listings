@@ -2,6 +2,7 @@
   {
     "id": 0,
     "company": "Photosnap",
+    "logo": "photosnap.svg",
     "role": "Fullstack",
     "level": "Midweight",
     "languages": ["Python"],
@@ -17,6 +18,7 @@
   {
     "id": 1,
     "company": "MyHome",
+    "logo": "myhome.svg",
     "role": "Frontend",
     "level": "Junior",
     "languages": ["CSS", "JavaScript"],
@@ -32,6 +34,7 @@
   {
     "id": 2,
     "company": "Loop Studios",
+    "logo": "loop-studios.svg",
     "role": "Fullstack",
     "level": "Midweight",
     "languages": ["JavaScript", "Ruby"],
@@ -47,6 +50,7 @@
   {
     "id": 3,
     "company": "FaceIt",
+    "logo": "faceit.svg",
     "role": "Backend",
     "level": "Junior",
     "languages": ["Ruby"],
@@ -62,6 +66,7 @@
   {
     "id": 4,
     "company": "Shortly",
+    "logo": "shortly.svg",
     "role": "Frontend",
     "level": "Junior",
     "languages": ["HTML", "JavaScript"],
@@ -77,6 +82,7 @@
   {
     "id": 5,
     "company": "Insure",
+    "logo": "insure.svg",
     "role": "Frontend",
     "level": "Junior",
     "languages": ["JavaScript"],
@@ -92,6 +98,7 @@
   {
     "id": 6,
     "company": "Eyecam Co.",
+    "logo": "eyecam-co.svg",
     "role": "Fullstack",
     "level": "Midweight",
     "languages": ["JavaScript", "Python"],
@@ -107,6 +114,7 @@
   {
     "id": 7,
     "company": "The Air Filter Company",
+    "logo": "the-air-filter-company.svg",
     "role": "Frontend",
     "level": "Junior",
     "languages": ["JavaScript"],
