@@ -7,6 +7,7 @@ $family: 'League Spartan', sans-serif
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap')
 $mobile: 375px
 $desktop: 1440px
+$shadow: 4px 4px 10px 3px rgba(0,0,0,0.3)
 
 *
     margin: 0
@@ -30,15 +31,24 @@ $desktop: 1440px
             margin: auto
             width: 75%
             background-color: yellow
+            position: relative
 
             .navigation ul
-                background-color: red
+                background-color: white
+                border-radius: 8px
                 padding: 1em
                 justify-content: space-evenly
                 align-items: center
                 display: flex
                 flex-direction: row
                 list-style-type: none
+                width: 100%
+                position: absolute
+                bottom: 80%
+                left: 0
+                margin: auto
+                z-index: 10
+                box-shadow: $shadow
 
                 .filter
                     display: flex
@@ -60,6 +70,13 @@ $desktop: 1440px
                         font-weight: 700
                         &:hover
                             background-color: $veryDarkGrayishCyan
+                .clear
+                    color: $darkCyan
+                    font-size: 20px
+                    text-decoration-line: none
+
+                    &:hover
+                        text-decoration-line: underline
 
     .attribution
         font-size: 11px
